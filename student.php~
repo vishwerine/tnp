@@ -4,6 +4,11 @@
       </head>
 
       <body>
+            <h2> Welcome to </h2> 
+            <a href="tnponline.php"> <h1> TnpOnline for IIT-Ropar </h1> </a>  
+            <br>
+
+
             <?php
                  $con = mysqli_connect('localhost','root','universe','mydb');
          

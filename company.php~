@@ -1,6 +1,6 @@
 <html>
       <head>
-            Student - TnpOnline IIT Ropar
+            Company - TnpOnline IIT Ropar
       </head>
 
       <body>
@@ -12,14 +12,14 @@
             <?php
                  $con = mysqli_connect('localhost','root','universe','mydb');
          
-                 $result = mysqli_query($con,"select * from student where username='".$_POST['username']."';");
+                 $result = mysqli_query($con,"select * from company where username='".$_POST['username']."';");
 
                  $row = mysqli_fetch_array($result);
 
-                 if ( $_POST['password'] == $row['password'] && $row['approve'] == 0s) {
+                 if ( $_POST['password'] == $row['password'] ) {
             
                           echo " welcome ".$_POST['username']."<br>";
-                          echo "your cg is ".$row['cg']."<br>";
+                          echo "your address is ".$row['address']."<br>";
 
                                                                }
                  else     {

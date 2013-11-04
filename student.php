@@ -16,7 +16,7 @@
 
                  $row = mysqli_fetch_array($result);
 
-                 if ( $_POST['password'] == $row['password'] && $row['approve'] == 0s) {
+                 if ( $_POST['password'] == $row['password'] && $row['approve'] == 0) {
             
                           echo " welcome ".$_POST['username']."<br>";
                           echo "your cg is ".$row['cg']."<br>";

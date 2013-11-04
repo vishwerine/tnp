@@ -16,7 +16,7 @@
 
             <p> fill your details below to register </p>
  
-            <form name="signup" action="registerstudent2.php" method="post">
+            <form name="signup" action="registerstudent.php" method="post">
              Name : <input type="text" name="name">   <br>
              Username : <input type="text" name="username" value="">  <br>
              Password : <input type="password" name="password" value="">  <br>
